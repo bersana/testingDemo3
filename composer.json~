@@ -4,11 +4,7 @@
     "type": "project",
     "description": "Symfony Demo Application",
     "autoload": {
-        "psr-0": { "": "src/", "SymfonyStandard": "app/" },
-        "classmap": [
-            "app/AppKernel.php",
-            "app/AppCache.php"
-        ]
+        "psr-0": { "": "src/", "SymfonyStandard": "app/" }
     },
     "require": {
         "php"                                  : ">=5.3.9",
@@ -56,8 +52,6 @@
     },
     "extra": {
         "symfony-app-dir": "app",
-        "symfony-bin-dir": "bin",
-        "symfony-var-dir": "var",
         "symfony-web-dir": "web",
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
