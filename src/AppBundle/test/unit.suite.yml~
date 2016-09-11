@@ -1,0 +1,6 @@
+class_name: UnitTester
+modules:
+    enabled:
+        - Asserts
+        - Symfony2
+        - \AcmeBundle\Helper\Unit
